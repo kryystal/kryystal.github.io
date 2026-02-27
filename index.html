@@ -1,105 +1,129 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="et">
 <head>
-  <meta charset="utf-8">
-  <title>Mina olen digikangelane</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Mina olen digikangelane</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <header>
-  <nav>
-    <ul>
-      <li><a href="#about">Minust</a></li>
-      <li><a href="#works">Tööd</a></li>
-      <li><a href="#contact">Kontakt</a></li>
-    </ul>
-    <a class="cta" href="#hero">Alusta</a>
-  </nav>
+  <nav aria-label="Peamenüü">
+    <ul>
+      <li><a href="#about">Minust</a></li>
+      <li><a href="#works">Tööd</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+    <a class="cta" href="#hero">Alusta</a>
+  </nav>
 </header>
 
 <main>
 
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div>
-      <h1 class="title">Ehitan ilusaid veebilehti, mis tunduvad kiired</h1>
-      <p class="subtitle">HTML, CSS ja näpuga julget maitset.</p>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1 class="title">
+        Ehitan ilusaid veebilehti, mis tunduvad kiired
+      </h1>
 
-      <div class="actions">
-        <a class="cta"
-           href="https://www.figma.com/design/OIrhWNoDssSB85Oz0ZDoNh/Untitled?node-id=0-1"
-           target="_blank"
-           rel="noopener">
-           Vaata töid
-        </a>
+      <p class="subtitle">
+        HTML, CSS ja näpuga julget maitset.
+      </p>
 
-        <a class="cta" href="#contact">Võta ühendust</a>
-      </div>
-    </div>
-  </section>
+      <div class="actions">
+        <a class="cta"
+           href="https://www.figma.com/design/OIrhWNoDssSB85Oz0ZDoNh/Untitled?node-id=0-1"
+           target="_blank"
+           rel="noopener noreferrer">
+          Vaata töid
+        </a>
 
-  <!-- ABOUT -->
-  <article class="card profile" id="about">
-    <img class="avatar" src="piz.jpg" alt="Profiilipilt">
+        <a class="cta secondary" href="#contact">
+          Võta ühendust
+        </a>
+      </div>
+    </div>
+  </section>
 
-    <div>
-      <span class="badge">#veebilooja</span>
+  <!-- ABOUT -->
+  <section id="about">
+    <article class="card profile">
+      <img class="avatar"
+           src="piz.jpg"
+           alt="Digikangelase profiilipilt">
 
-      <p class="about-text">
-        Mulle meeldivad puhas kood, väljendusrikas tüpograafia ja korralikud vahed.
-      </p>
-    </div>
-  </article>
+      <div class="profile-content">
+        <span class="badge">#veebilooja</span>
 
-  <!-- WORKS -->
-  <section class="cards" id="works">
+        <p class="about-text">
+          Mulle meeldivad puhas kood, väljendusrikas tüpograafia ja korralikud vahed.
+        </p>
+      </div>
+    </article>
+  </section>
 
-    <article class="mini">
-      <h3>Plakati-landing</h3>
-      <p>Suur pealkiri, kontrast ja rütm.</p>
-    </article>
+  <!-- WORKS -->
+  <section class="cards" id="works">
+    <article class="mini">
+      <h3>Plakati-landing</h3>
+      <p>Suur pealkiri, kontrast ja rütm.</p>
+    </article>
 
-    <article class="mini">
-      <h3>Dribbling</h3>
-      <p>Prototüüp.</p>
-      <a href="https://www.figma.com/proto/UVhkfhSaDTtZ7H3dwdFgrR/Dribble"
-         target="_blank" rel="noopener">Vaata projekti</a>
-    </article>
+    <article class="mini">
+      <h3>Dribbling</h3>
+      <p>Prototüüp.</p>
+      <a href="https://www.figma.com/proto/UVhkfhSaDTtZ7H3dwdFgrR/Dribble"
+         target="_blank"
+         rel="noopener noreferrer">
+        Vaata projekti
+      </a>
+    </article>
 
-    <article class="mini">
-      <h3>Galerii</h3>
-      <p>Kaartide võrk Flexboxiga.</p>
-    </article>
+    <article class="mini">
+      <h3>Galerii</h3>
+      <p>Kaartide võrk Flexboxiga.</p>
+    </article>
 
-    <article class="mini">
-      <h3>Foodapp tablet</h3>
-      <p>Prototüüp.</p>
-      <a href="https://www.figma.com/proto/5AWLw1bDJmJKHIzs3D6YRb/Salads"
-         target="_blank" rel="noopener">Vaata projekti</a>
-    </article>
+    <article class="mini">
+      <h3>Foodapp tablet</h3>
+      <p>Prototüüp.</p>
+      <a href="https://www.figma.com/proto/5AWLw1bDJmJKHIzs3D6YRb/Salads"
+         target="_blank"
+         rel="noopener noreferrer">
+        Vaata projekti
+      </a>
+    </article>
 
-    <article class="mini">
-      <h3>FoodApp</h3>
-      <p>Prototüüp.</p>
-      <a href="https://www.figma.com/proto/TQZ05NiOSZRdtXYdxVIC6Q/app"
-         target="_blank" rel="noopener">Vaata projekti</a>
-    </article>
+    <article class="mini">
+      <h3>FoodApp</h3>
+      <p>Prototüüp.</p>
+      <a href="https://www.figma.com/proto/TQZ05NiOSZRdtXYdxVIC6Q/app"
+         target="_blank"
+         rel="noopener noreferrer">
+        Vaata projekti
+      </a>
+    </article>
+  </section>
 
-  </section>
-
-  <!-- CONTACT -->
-  <section class="card" id="contact">
-    <h2>Kontakt</h2>
-    <p>Kirjuta mulle:email@example.com</p>
-  </section>
+  <!-- CONTACT -->
+  <section class="card contact" id="contact">
+    <h2>Kontakt</h2>
+    <p>
+      Kirjuta mulle:
+      <a href="mailto:email@example.com">Jelizaveta.Trifonova@ivkhk.ee</a>
+    </p>
+  </section>
 
 </main>
 
 <footer>
-  © 2026 Digikangelane — tehtud armastusega CSS-i vastu
+  <p>© 2026 Digikangelane — tehtud armastusega CSS-i vastu</p>
 </footer>
+
+</body>
+</html>
